@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 250px;
+    width: 100%;
+    background-color: RGB(82, 94, 167);
+}
+
+
+.information {
+    max-width: 900px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.fio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    padding-left: 30px;
+}
+
+#fio {
+    margin: -10px 0;
+    font-size: 28pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#prof {
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+#foto {
+    border-radius: 100px;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.adress ul li:nth-child(1) {
+    background: url(img/map.png) no-repeat 0 2px;
+    padding: 0 0 4px 30px;
+    margin-bottom: 1em;
+}
+
+.adress ul li:nth-child(2) {
+    background: url(img/glob.png) no-repeat 0 2px;
+    padding: 0 0 4px 30px;
+
+    margin-bottom: 1em;
+}
+
+.adress ul li:nth-child(3) {
+    background: url(img/phone.png) no-repeat 0 2px;
+    padding: 0 0 4px 30px;
+    margin-bottom: 1em;
+}
+
+/* li:nth-child {
+    list-style: none;
+    background: url(img/map.png);
+
+} */
+
+/* .adress>ul li:first-child + li{
+    list-style-image:url('image2.png');
+    } */
+
+
+.adress {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+.container {
+    max-width: 900px;
+}
