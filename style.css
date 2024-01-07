@@ -70,22 +70,85 @@ ul {
     margin-bottom: 1em;
 }
 
-/* li:nth-child {
-    list-style: none;
-    background: url(img/map.png);
-
-} */
-
-/* .adress>ul li:first-child + li{
-    list-style-image:url('image2.png');
-    } */
-
 
 .adress {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 .container {
     max-width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    gap: 70px;
+
+}
+
+.left-colomn {
+    font-family: 'Open Sans', sans-serif;
+    flex: 1;
+    font-size: 11pt;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.right-colomn {
+    font-family: 'Open Sans', sans-serif;
+    flex: 2;
+    font-size: 11pt;
+}
+
+.profile-info-header {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    gap: 20px;
+    font-size: 16pt;
+}
+
+.work-experience-header {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    gap: 30px;
+    font-size: 16pt;
+}
+
+
+
+.work-experience-discription {
+    display: flex;
+    margin-left: 70px;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.present {
+    flex: 1;
+}
+
+.discription {
+    flex: 2;
+}
+
+.img-interests {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.interest {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-color {
+    color: rgb(82, 94, 167);
+    font-weight: bold;
 }
