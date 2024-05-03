@@ -116,6 +116,11 @@ ul {
     font-size: 16pt;
 }
 
+.present-ref-colomn{
+display: flex;
+flex-direction: column;
+margin-left: 35px;
+}
 
 
 .work-experience-discription {
@@ -126,11 +131,11 @@ ul {
 }
 
 .present {
-    flex: 1;
+    flex: 2;
 }
 
 .discription {
-    flex: 2;
+    flex: 3;
 }
 
 .img-interests {
@@ -151,4 +156,110 @@ ul {
 .text-color {
     color: rgb(82, 94, 167);
     font-weight: bold;
+}
+
+.user_interface{
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    
+}
+
+.user_interface_inside{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(230deg, transparent 50%, rgb(82, 94, 167) 50%), linear-gradient(295deg, rgb(82, 94, 167) 50%, transparent 50%);
+
+}
+
+.user_interface_inside2{
+    position: absolute;
+margin: 2px;
+width: 76px;
+height: 76px;
+border-radius: 50%;
+background: #ffffff;
+}
+
+.circles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    justify-content: space-between;
+    
+margin-top: 20px;    
+}
+
+.web_design{
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+.web_design_inside{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(215deg, transparent 50%, rgb(82, 94, 167) 50%), linear-gradient(300deg, rgb(82, 94, 167) 50%, transparent 50%);
+
+}
+.web_design_inside2{
+    position: absolute;
+    margin: 2px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.photoshop{
+    border-radius: 50%;
+    background: rgb(255, 255, 255);}
+
+.photoshop_inside{  
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg, transparent 50%, rgb(82, 94, 167) 50%), linear-gradient(275deg, rgb(82, 94, 167) 50%, transparent 50%);
+}
+.photoshop_inside2{ 
+    position: absolute;
+    margin: 2px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #ffffff;}
+
+    .user_experience{
+        border-radius: 50%;
+        background: rgb(255, 255, 255);
+    }
+
+.user_experience_inside{ 
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(235deg, transparent 50%, rgb(82, 94, 167) 50%), linear-gradient(295deg, rgb(82, 94, 167) 50%, transparent 50%);}
+
+.user_experience_inside2{
+     position: absolute;
+    margin: 2px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #ffffff;}
+
+    .num{
+        position: relative;
+        top: 21px;
+        left: 15px; 
+        font-size: 18pt;
+    }
+    
+.text{
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 10px;
 }
